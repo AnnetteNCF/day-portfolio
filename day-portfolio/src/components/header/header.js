@@ -9,14 +9,14 @@ function Header() {
         <nav>
             {/* <div className="spacer" /> */}
             <h1 className="nav-logo">day.</h1>
-            <div className="spacer" />
+            {/* <div className="spacer" /> */}
             <div className="nav-links">
               <ul>
                 <li>
                   <a className="nav-links-individual" href="/">home</a>
                 </li>
                 <li>
-                 <a className="nav-links-individual" href="">projects</a>
+                 <a className="nav-links-individual" href="projects">projects</a>
                 </li>
                 <li>
                   <a className="nav-links-individual" href="about">about</a>
