@@ -1,0 +1,67 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 8vh;
+  /* background-color: grey; */
+  top: 0;
+  width: 100%;
+  color: white;
+  /* font-family: 'Baloo Bhai 2', cursive; */
+  font-family: 'Baloo Tamma 2', cursive;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nav-logo {
+  letter-spacing: 3px;
+  text-align: center;
+  padding: 0 5px 0 5px;
+  width: 60px;
+  z-index: 1;
+}
+.nav-logo:before {
+  border-top: 1.25px solid white;
+  content:"";
+  position: absolute;
+  width: 60px;
+  z-index: -1;
+}
+.nav-links ul { /*This directly targets the links and tells them how to behave because they are inside the list */
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-links li { 
+  padding: 0 1rem;
+ }
+.nav-links a { /*The 1st four codes allow the strikethrough to work*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.nav-links-individual {
+  border-style: none;
+  text-align: center;
+  padding: 0 5px 0 5px;
+  width: 60px;
+  z-index: 1;
+}
+.nav-links-individual:hover:before {
+    border-top: 1.25px solid white;
+    content:"";
+    position: absolute;
+    width: 60px;
+    z-index: -1;
+}
+.spacer {
+  flex: 0.5;
+}
