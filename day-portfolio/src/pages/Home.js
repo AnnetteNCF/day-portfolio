@@ -1,10 +1,9 @@
-import React from 'react';
-import Body from '../components/body/body.js';
-// import { render } from '@testing-library/react';
+import React, { Component } from 'react';
+import Body from '../components/homeBody/body.js';
 
-function Home() {
-    return(
-        <Body />
-    )
-}
+const Home = () => {
+	    return(
+	        <Body />
+	    )
+	}
 export default Home;

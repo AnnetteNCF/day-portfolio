@@ -1,0 +1,44 @@
+.about {
+    font-size: 1rem;
+    margin: 0 0 0 10%;
+   /* background-color: purple;*/
+    width: 20px;
+}
+.about-intro-container{
+	display: block;
+	flex-direction: space-around;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	width: 75%;
+	margin: -20px auto 0px auto;
+	background-color: magenta;
+}
+.resume-container {
+	display: block;
+	flex-direction: space-around;
+	align-items: center;
+	align-content: center;
+	background-color: blue;
+	padding: 20px;
+}
+.abilities {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0px auto;
+	font-size: 1.2rem;
+}
+.abilities ul {
+	list-style: none;
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: orange;*/
+	border-style: solid;
+	border-bottom: 1px white;
+}
+.abilities li {
+	padding: 0 1rem;
+}
