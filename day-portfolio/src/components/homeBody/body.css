@@ -11,6 +11,7 @@
     position: relative;
     margin: 0 auto;
   }
+
   .home-body-logo:before {
     border-top: 2px solid white;
     content:"";
@@ -18,6 +19,7 @@
     width: 400px;
     z-index: -1;
 }
+
 .home-body-intro {
     font-size: 1.5rem;
     text-transform: uppercase;

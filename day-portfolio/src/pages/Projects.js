@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import ProjectIntro from '../components/ProjectIntro.js';
 
 
-const Projects = () => {
+class Projects extends Component {
+  render() {
 	    return(
 	    	<React.Fragment>
 	        <div className="projects">
@@ -28,9 +29,12 @@ const Projects = () => {
 	        </div>
 	       	<div className="projects">
 	        	s
-	        </div>	        
+	        </div>	    
+	        <div className="shadow-inset-center">
+	        </div>    
 	        </React.Fragment>
 	    )
 	}
+}
 
 export default Projects;
