@@ -24,21 +24,18 @@ class About extends Component {
 
 	        <div className="about-intro-container">
 		        <div className="about-intro">
-		        	<p>Hello!</p>
-		        	<p>My name is Annette Carreon Fuentes.</p>
-		        	<p>But you can call me <p>Day.</p></p>
-		        	<p>
-		        		I am from Los Lunas, NM. I am currently a Mathematics major at the University of New Mexico and a graduate from the Cultivating Coders bootcamp.
+		        	<p>This is the beginning of Day. , 
+		        		<p>
+			        		a creative coding venture looking to bring a new perspective and 
+			        		blend the lines between technology and art.
+		        		</p>
 		        	</p>
 		        	<br />
-		      		{// <div className="abilities">
-			      	// 	<ul>
-			      	// 		<li>GRAPHIC DESIGNER</li>
-			      	// 		<li>UI/UX DESIGNER</li>
-			      	// 		<li>FRONTEND DEVELOPER</li>
-			      	// 	</ul>
-			      	// </div>
-			      }
+		        	<p>Created by Annette Carreon Fuentes</p>
+		        	<p>
+		        		Cultivating Coders bootcamp graduate.
+		        	</p>
+		        	<p>From Los Lunas, NM.</p>
 		        </div>
 	        </div>
 	        <div className="resume-container">

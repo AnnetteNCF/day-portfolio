@@ -1,6 +1,4 @@
-.home-body {
 
-}
 .home-body-logo {
     font-size: 10rem;
     letter-spacing: 3px;
@@ -33,7 +31,27 @@
     border-color: white;
 }
 .home-body h2 {
-    letter-spacing: 3px;
+    letter-spacing: 20px;
     text-align: center;
     margin: 100px auto -30px auto;
+}
+.contact-links {
+    transform: rotate(90deg);
+    position: fixed;
+    right: 0px;
+    text-align: right;
+    margin-top: 350px;
+    margin-right: -50px;
+    color: white;
+/*    background-color: orange;*/
+}
+.email-link {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    padding: 0px 10px 0px 10px;
+}
+.social-media-icon {
+    height: auto;
+    width: 20px;
 }

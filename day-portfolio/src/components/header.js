@@ -9,6 +9,7 @@ import {
 import Home from '../pages/Home.js';
 import About from '../pages/About.js';
 import Projects from '../pages/Projects.js';
+import linkedin from '../linkedin.png'
 import './header.css';
 
 export default function App() {
@@ -33,6 +34,12 @@ export default function App() {
             </ul>
           </div>
         </nav>
+            <div className="contact-links">
+                <a href="mailto:day.creativeproject@gmail.com?subject=Hi%20Annette" class="email-link">day.creativeproject@gmail.com</a>
+                <a href="https://www.linkedin.com/in/annette-carreon-a719391a3/" target="_blank" rel="noreferrer noopener">
+                  <img src={linkedin} className="social-media-icon" alt="linkedin logo" />
+                </a>
+            </div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
